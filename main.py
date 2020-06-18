@@ -92,11 +92,11 @@ def btn_search_2():
         user_input_4.delete(0, 'end')
 
 #declaring all the images and entries and searches buttons
-pic_sunflowers = ImageTk.PhotoImage(Image.open('C:/Users/aa123/Desktop/Sunflowers.jpg').resize((600, 600), Image.ANTIALIAS))
+pic_sunflowers = ImageTk.PhotoImage(Image.open('./Sunflowers.jpg').resize((600, 600), Image.ANTIALIAS))
 panel_sunflowers = tkinter.Label(root, image= pic_sunflowers)
 panel_sunflowers.grid(row=0,column=0)
 
-pic_plants = ImageTk.PhotoImage(Image.open('C:/Users/aa123/Desktop/Plants.jpg').resize((600, 600), Image.ANTIALIAS))
+pic_plants = ImageTk.PhotoImage(Image.open('./Plants.jpg').resize((600, 600), Image.ANTIALIAS))
 panel_plants = tkinter.Label(root, image= pic_plants)
 panel_plants.grid(row=0,column=1)
 
